@@ -1,0 +1,36 @@
+import React from 'react'
+import Hero from './components/hero'
+import Navbar from './components/navbar'
+import Projects from './components/projects'
+import Bio from './components/bio'
+import Skill from './components/Skill'
+import Education from './components/Education'
+import Contact from './components/Contact'
+import Footer from './components/footer'
+
+
+const App = () => {
+  return (
+    <div className = 'relative h-full overflow-y-hidden antialiased'>
+
+      <div className= 'fixed  inset-0 bg-fixed bg-cover bg-center bg-img'>
+ 
+      </div>
+       <div className='relative z-10 flex  flex-col items-center p-4 space-y-8 container mx-auto'>
+          <Hero />
+          <Navbar />
+          <Projects />
+          <Bio />
+          <Skill />
+          <Education/>
+          <Contact />
+          <Footer />
+       </div>
+
+    </div>
+  
+
+  )
+}
+
+export default App
