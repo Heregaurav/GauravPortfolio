@@ -14,10 +14,10 @@ import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
-import { RiReactjsLine } from "react-icons/ri";
+import { FaJsSquare } from 'react-icons/fa'
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiMongodb } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import{RiReactjsLine} from "react-icons/ri"
 import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 
@@ -34,7 +34,7 @@ export const HERO = {
   name: "GAURAV ",
   greet: "Hello there! ",
   description:
-    "I am a passionate frontend developer with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web experiences for over a decade.",
+  "Pursuing Electronics and Communication Engineering at Indian Institute of Information Technology Dharwad . | learning full stack Development | Have keen interest in cybersecurity and working on its fundamentals & Ethical Hacking skills",
 };
 
 export const PROJECTS = [
@@ -50,7 +50,7 @@ export const PROJECTS = [
     id: 2,
     name: "E-Commerce Platform",
     description:
-      "Currently working on an e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
     image: projectImage2,
     githubLink: "https://github.com/user/ecommerce-platform",
   },
@@ -58,7 +58,7 @@ export const PROJECTS = [
     id: 3,
     name: "Task Management Tool",
     description:
-      "  In near future  I  am planning to make a  task management application  for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
     image: projectImage3,
     githubLink: "https://github.com/user/task-management-tool",
   },
@@ -89,66 +89,48 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
- " I’m currently pursuing my B.Tech in Electronics and Communication at IIIT Dharwad, where I’m building a strong foundation in technology. I have a keen interest in Web Development and Cybersecurity, and I’m actively exploring these fields through hands-on projects and by being a part of technical communities like the MLSA Cybersecurity Technical Team. I'm a passionate and curious learner, always looking to grow my skills and gain experience as I work towards a future in the tech industry.",
- " Alongside my growing interest in Web Development and Cybersecurity,I currently serve as the Co-Lead of Dynamight, the official dance club of IIIT Dharwad, where I combine leadership with my passion for dance and creativity, I’m also member of the Art Club and a proud player on the college volleyball team. Whether it’s coding, choreographing, painting, or playing, I love expressing myself through different forms and constantly look for ways to blend creativity with innovation.",
-  "As a passionate and growing developer, I bring a mix of skills in Web Development and Cybersecurity. I’m learning and working with frontend technologies and modern frameworks, focusing on creating efficient and user-friendly digital experiences. Beyond coding, I enjoy expressing my creativity and leadership through my roles in the dance and art clubs, which helps me bring a unique perspective to everything I do."];
+  " I’m currently pursuing my B.Tech in Electronics and Communication at IIIT Dharwad, where I’m building a strong foundation in technology. I have a keen interest in Web Development and Cybersecurity, and I’m actively exploring these fields through hands-on projects and by being a part of technical communities like the MLSA Cybersecurity Technical Team. I'm a passionate and curious learner, always looking to grow my skills and gain experience as I work towards a future in the tech industry.",
+  " Alongside my growing interest in Web Development and Cybersecurity,I currently serve as the Co-Lead of Dynamight, the official dance club of IIIT Dharwad, where I combine leadership with my passion for dance and creativity, I’m also member of the Art Club and a proud player on the college volleyball team. Whether it’s coding, choreographing, painting, or playing, I love expressing myself through different forms and constantly look for ways to blend creativity with innovation.",
+   "As a passionate and growing developer, I bring a mix of skills in Web Development and Cybersecurity. I’m learning and working with frontend technologies and modern frameworks, focusing on creating efficient and user-friendly digital experiences. Beyond coding, I enjoy expressing my creativity and leadership through my roles in the dance and art clubs, which helps me bring a unique perspective to everything I do."
+  ];
+ 
+ 
 
 export const SKILLS = [
   {
     icon: <RiReactjsLine className="text-4xl text-cyan-400 lg:text-5xl" />,
     name: "React",
-    experience: "2+ years",
+   
   },
   {
     icon: <TbBrandNextjs className="text-4xl text-white lg:text-5xl" />,
     name: "Next.js",
-    experience: "1+ year",
+    
   },
   {
     icon: <SiMongodb className="text-4xl text-green-600 lg:text-5xl" />,
     name: "MongoDB",
-    experience: "1.5+ years",
+
   },
   {
-    icon: <DiRedis className="text-4xl text-red-600 lg:text-5xl" />,
-    name: "Redis",
-    experience: "1+ year",
+    icon: <FaJsSquare className="text-4xl text-yellow-600 lg:text-5xl" />,
+    name: "JQuery",
+    
   },
   {
     icon: <FaNodeJs className="text-4xl text-green-600 lg:text-5xl" />,
     name: "Node.js",
-    experience: "2+ years",
+   
   },
   {
     icon: <BiLogoPostgresql className="text-4xl text-sky-700 lg:text-5xl" />,
     name: "PostgreSQL",
-    experience: "1+ year",
+   
   },
 ];
 
-export const EXPERIENCES = [
-  {
-    title: "Lead Frontend Developer",
-    company: "Innovative Tech Solutions",
-    duration: "July 2020 - Present",
-    description:
-      "As the Lead Frontend Developer, I spearheaded the development of advanced web applications using cutting-edge technologies like React, Redux, and TypeScript. I worked closely with cross-functional teams, including designers, product managers, and backend developers, to deliver seamless and high-performance user experiences.",
-  },
-  {
-    title: "Frontend Engineer",
-    company: "Digital Creations",
-    duration: "February 2016 - June 2020",
-    description:
-      "At Digital Creations, I focused on building highly interactive and responsive web interfaces using HTML, CSS, JavaScript, and modern libraries like React. I collaborated closely with UX/UI designers to implement design changes that enhanced user engagement and satisfaction. My role involved optimizing website performance, ensuring cross-browser compatibility, and implementing SEO best practices. ",
-  },
-  {
-    title: "Junior Web Developer",
-    company: "Bright Future Technologies",
-    duration: "August 2014 - January 2016",
-    description:
-      "In my role as a Junior Web Developer, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
-  },
-];
+
+
 
 export const EDUCATION = [
   {
