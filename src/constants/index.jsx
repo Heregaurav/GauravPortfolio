@@ -50,7 +50,7 @@ export const PROJECTS = [
     id: 2,
     name: "E-Commerce Platform",
     description:
-      "An e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
+      "Currently working on an e-commerce web application developed using Next.js and Stripe for payment integration, featuring a comprehensive product catalog, shopping cart, and checkout system.",
     image: projectImage2,
     githubLink: "https://github.com/user/ecommerce-platform",
   },
@@ -58,7 +58,7 @@ export const PROJECTS = [
     id: 3,
     name: "Task Management Tool",
     description:
-      "A task management application built with React and Redux for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
+      "  In near future  I  am planning to make a  task management application  for efficient task tracking and team collaboration, including features like project boards, task assignment, and progress tracking.",
     image: projectImage3,
     githubLink: "https://github.com/user/task-management-tool",
   },
@@ -89,10 +89,9 @@ export const PROJECTS = [
 ];
 
 export const BIO = [
-  "Carl Frank studied computer science at the University of Technology,from which he graduated in 2010. Following his education, he honed his craft and expertise over the course of 10 years at Tech Innovations Inc., where he immersed himself in the world of frontend development.",
-  "In 2021, driven by a shared vision for innovative web solutions and a passion for creating extraordinary user experiences Carl Frank co-founded WebArtistry alongside his creative partner, Jane Doe. Together, they set out to redefine frontend development, infusing their projects with creativity and cutting-edge technology.",
-  "As a multi-disciplinary frontend developer, Carl Frank brings a wealth of skills and expertise to his work. From his deep understanding of HTML, CSS, and JavaScript to his proficiency in modern frameworks like React and Vue.js, Carl Frank possesses a versatile skill set that allows him to craft stunning and unforgettable web experiences for his clients and audiences alike.",
-];
+ " I’m currently pursuing my B.Tech in Electronics and Communication at IIIT Dharwad, where I’m building a strong foundation in technology. I have a keen interest in Web Development and Cybersecurity, and I’m actively exploring these fields through hands-on projects and by being a part of technical communities like the MLSA Cybersecurity Technical Team. I'm a passionate and curious learner, always looking to grow my skills and gain experience as I work towards a future in the tech industry.",
+ " Alongside my growing interest in Web Development and Cybersecurity,I currently serve as the Co-Lead of Dynamight, the official dance club of IIIT Dharwad, where I combine leadership with my passion for dance and creativity, I’m also member of the Art Club and a proud player on the college volleyball team. Whether it’s coding, choreographing, painting, or playing, I love expressing myself through different forms and constantly look for ways to blend creativity with innovation."
+  "As a passionate and growing developer, I bring a mix of skills in Web Development and Cybersecurity. I’m learning and working with frontend technologies and modern frameworks, focusing on creating efficient and user-friendly digital experiences. Beyond coding, I enjoy expressing my creativity and leadership through my roles in the dance and art clubs, which helps me bring a unique perspective to everything I do."
 
 export const SKILLS = [
   {
