@@ -138,14 +138,14 @@ export const EDUCATION = [
     institution: "Indian Institute of Information Technology , Dharwad",
     duration: "September 2024 - June 2026",
     description:
-      "Specialized in Human-Computer Interaction and Software Engineering. Completed a thesis on enhancing user experience in web applications through advanced interactive techniques. Participated in various projects involving frontend development, algorithms, and data structures. Graduated with honors.",
+        "Pursuing a minor in Cybersecurity, I am actively learning about security measures and best practices to protect websites and digital systems. I have been exploring ethical hacking techniques to better understand vulnerabilities and how to safeguard against them. Alongside this, I am involved in projects focused on Web Development and enhancing user experience through efficient and secure coding practices."
   },
   {
     degree: "Bachelor of Technology in ELectronics and Commmunicaiton ",
     institution: "Indian Institute of Information Technology , Dharwad",
     duration: "August 2023 - June 2027",
     description:
-      "Focused on web development, programming languages, and database management. Actively involved in coding clubs and hackathons, where I developed several web applications using HTML, CSS, JavaScript, and PHP. Completed a senior project on developing an e-commerce platform. Graduated with a high GPA.",
+      "Focused on electronics and embedded systems, I have gained practical experience with microcontrollers and circuit design at IIIT Dharwad. Alongside this, I am developing skills in web development and cybersecurity through projects and club activities."
   },
 ];
 
