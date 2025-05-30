@@ -155,11 +155,11 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaFacebook fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://discord.com/",
     icon: <FaDiscord fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://x.com/",
+    href: "https://instagram.com/",
     icon: <FaInstagram fontSize={25} className="hover:opacity-80" />,
   },
   {
@@ -171,7 +171,7 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/",
+    href: "https://www.linkedin.com/in/gaurav-kumar-182710329.com/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
