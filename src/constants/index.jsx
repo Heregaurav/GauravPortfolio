@@ -171,7 +171,7 @@ export const SOCIAL_MEDIA_LINKS = [
     icon: <FaGithub fontSize={25} className="hover:opacity-80" />,
   },
   {
-    href: "https://www.linkedin.com/in/gaurav-kumar-182710329.com/",
+    href: "https://www.linkedin.com/in/gaurav-kumar-182710329/",
     icon: <FaLinkedin fontSize={25} className="hover:opacity-80" />,
   },
 ];
